@@ -24,6 +24,6 @@ for (let i = 0; i < myBook.length; i++ ) {
     if(myBook[i].alreadyRead === true){
         console.log(`I already read "${myBook[i].title}"`);
     } else {
-        onsole.log(`I still need to read "${myBook[i].title}"`)
+        console.log(`I still need to read "${myBook[i].title}"`)
     }
 }
