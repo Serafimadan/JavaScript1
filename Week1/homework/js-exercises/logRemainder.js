@@ -25,5 +25,3 @@ console.log(z);
 /* result is 1 because of remainder operator (%) returns the remainder left over when one operand is divided by a second operand.
 (13/2=6,... not devide without remainder)2*6 + 1 =13, remainder is 1
 */
-
-
