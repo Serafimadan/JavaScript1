@@ -9,19 +9,19 @@ function calculator(score, maxScore) {
         case percentage >= 90 && percentage <= 100:
             grade = 'A';
             break;
-        case percentage >= 80 && percentage < 89:
+        case percentage >= 80 && percentage <= 89:
             grade = 'B';
             break;
-        case percentage >= 70 && percentage < 79:
+        case percentage >= 70 && percentage <= 79:
             grade = 'C';
             break;
-        case percentage >= 60 && percentage < 69:
+        case percentage >= 60 && percentage <= 69:
             grade = 'D';
             break;
-        case percentage >= 50 && percentage < 59:
+        case percentage >= 50 && percentage <= 59:
             grade = 'E';
             break;  
-        case percentage >= 0 && percentage < 49:
+        case percentage >= 0 && percentage <= 49:
             grade = 'F';
     }
 return `You got a ${grade} (${percentage}%)!`
@@ -30,3 +30,4 @@ return `You got a ${grade} (${percentage}%)!`
 console.log(calculator(63, 100));
 console.log(calculator(34, 100));
 console.log(calculator(97, 100));
+console.log(calculator(89, 100));
