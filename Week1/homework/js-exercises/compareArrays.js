@@ -6,5 +6,10 @@ let days = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 
 console.log('The length of the array mixTypes is' + ' ' + mixTypes.length);
 console.log('The length of the array days is' + ' ' + days.length);
 // a conditional statement that checks if both are of equal length
-mixTypes.length == days.length ? console.log("They are the same!") : console.log("Two different sizes!");
+// mixTypes.length == days.length ? console.log("They are the same!") : console.log("Two different sizes!");
+if (mixTypes.length == days.length) {
+    console.log("They are the same!")
+} else {
+    console.log("Two different sizes!");
+}
 
